@@ -1,0 +1,14 @@
+int x = 400;
+int y = 400;
+size(800,800);
+background(0,0,0);
+noStroke();
+fill(0,255,0);
+ellipse(x,y,250,290);
+fill(0,0,0);
+arc(x,450,100,100,0*PI,1*PI);
+fill(255,255,255);
+ellipse(x,375,75,75);
+fill(0,0,0);
+ellipse(x,375,30,30);
+arc(x,300,100,100,1*PI,2*PI);
